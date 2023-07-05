@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercice Javascript</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>      
+		<form id="MyFrom">
+            <div class="Sexe">
+                <label for="Sexe">Choisir votre Genre: </label>
+                <input type="radio" id="Choix1" name="Sexe" value="Homme"> Homme
+                <input type="radio" id="Choix2" name="Sexe" value="Femme"> Femme            
+            </div>
+            <div class="Name">
+                <label for="Name">Nom</label>
+                <input type="text" id="Name" name="Name">
+            </div>
+            <div class="Prenom">
+                <label for="Prenom">Prenom</label>
+                <input type="text" id="Prenom" name="Prenom">
+            </div>
+            <div class="Age">
+                <label for="Age">Age</label>
+                <input type="text" id="Age" name="Age">
+            </div>
+            <div class="Pseudo">
+                <label for="Pseudo">Pseudo</label>
+                <input type="text" id="Pseudo" name="Pseudo">
+            </div>
+            <div class="Motdepasse">
+                <label for="motdepasse">Mot de passe</label>
+                <input type="password" id="motdepasse" name="motdepasse">
+            </div>
+            <div class="Motdepasse2">
+                <label for="motdepasse2"> Mot de passe Confirmation</label>
+                <input type="password" id="motdepasse2" name="motdepasse2">
+            </div>
+            <br>
+            <div class="Pays">
+                <label for="pays">Choose a Country: </label>
+                <select name = "pays" id = "pays">
+                    <option value="">Choisir un Pays
+                    </option>
+                    <option value="France">France</option>
+                    <option value="Allemagne">Allemagne</option>
+                    <option value="Angleterre">Angleterre</option>
+                    <option value="Italie">Italie</option>
+                </select>
+            </div>
+            <div class="email-rec">
+                <label for="email-rec"> Voulez vous recevoir des e-mails ?</label>
+                <input type = "checkbox" id="yes" name="check" value="yes"> Oui
+            <br>
+            <br>
+            <div class="buton">
+                <button type="submit" id="button">Validez le formulaire</button>
+            </div>
+        </form>
+
+        <script src="script.js"></script>
+	</body>
+</html>
